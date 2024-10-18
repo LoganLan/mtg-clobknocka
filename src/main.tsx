@@ -5,11 +5,16 @@ import './index.css'
 import "react-scrycards/dist/index.css";
 import { ScrycardsContextProvider, ScryNameCard } from 'react-scrycards';
 
+import './landingPage'
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <ScrycardsContextProvider>
+
+
+
+    {/* <ScrycardsContextProvider>
       
-      <ScryNameCard animated card_name="Alexander Clamilton"></ScryNameCard>
+      <ScryNameCard animated card_name="Krenko, Mob Boss"></ScryNameCard>
       <App/>
       <App/>
       <App/>
@@ -21,8 +26,9 @@ createRoot(document.getElementById('root')!).render(
       <App/>
       <App/>
       
-    </ScrycardsContextProvider>
+    </ScrycardsContextProvider> */}
     
     
   </StrictMode>,
+  <landingPage></landingPage>
 )

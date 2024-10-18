@@ -21,7 +21,7 @@ function App() {
     })
   }
   useEffect(() => { getRandomCard() }, [])
-  console.log(useScrycard("Alexander Clamilton"))
+  console.log(useScrycard("Krenko, Mob Boss"))
   return (
     // <ScryNameCard animated card_name="Alexander Clamilton"></ScryNameCard>
 
