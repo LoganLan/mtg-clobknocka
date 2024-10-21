@@ -25,7 +25,7 @@ function App() {
   return (
     // <ScryNameCard animated card_name="Alexander Clamilton"></ScryNameCard>
 
-    <Scrycard animated size='zoom' symbol_text_renderer={Scrytext} card={card}>
+    <Scrycard animated symbol_text_renderer={Scrytext} card={card}>
 
     </Scrycard>
 
